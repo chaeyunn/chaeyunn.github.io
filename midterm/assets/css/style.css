@@ -1,0 +1,87 @@
+img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+body{
+    background-image: url('../img/rawImage\ Large.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-item {
+    color:white;
+    margin-right: 25px;
+    margin-left: 30px;
+    float: right;
+    line-height: 60px;
+    letter-spacing: 3px;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#title{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+    color:white;
+}
+
+.ethiopia{
+    font-size: 70pt;
+    color:white;
+    letter-spacing: 5px;
+}
+
+.restaurant{
+    font-size: 30pt;
+    padding-bottom: 30px;
+    color:white;
+    letter-spacing: 3px;
+}
+
+.address {
+    display: flex;
+    font-size: 15px;
+    color:white;
+    letter-spacing: 3px;
+}
+
+#pickup {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 0px;
+    font-size: 20px;
+    color:white;
+    position: relative;
+    bottom: 100px;
+}
+
+#order-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 60px;
+    color:white;
+    position: relative;
+    bottom: 90px;
+}
+
+#order-buttons:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
